@@ -64,7 +64,11 @@ body{
 
 /* 600 or less */
 @media screen and  (max-width: 600px){
-
+    .main{
+        margin-top: 7% ;
+        margin-right: 7%;
+        margin-left: 7%;
+    }
     .main img{
         background-image: url('images/image-header-mobile.jpg');
     }
@@ -76,6 +80,11 @@ body{
 @media screen and (max-width:490px) {
     body{
         text-align: center;
+    }
+    .main{
+        margin-top: 5% ;
+        margin-right: 5%;
+        margin-left: 5%;
     }
     .achievements{
         flex-direction: column;
