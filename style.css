@@ -51,7 +51,7 @@ body{
    
 }
 /* 850 or less */
-@media screen and  (max-width: 850px){
+@media screen and  (max-width: 1000px){
 
     .main{
         flex-direction: column;
@@ -73,7 +73,7 @@ body{
     }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:490px) {
     body{
         text-align: center;
     }
